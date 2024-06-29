@@ -7,7 +7,7 @@ int main(){
     char string2[] = "code";
 
     strcat(string1, string2);
-    strncat()
+    strncat() // function 
     strcpy()
     strncpy()
 
