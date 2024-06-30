@@ -7,9 +7,9 @@ int main(){
     char string2[] = "code";
 
     strcat(string1, string2);
-    strncat() // function 
-    strcpy()
-    strncpy()
+    strncat(string1,string2,100);
+    strcpy(string1,string2);
+    strncpy(string1,string2,sizeof(string1));
 
 
     printf("%s\n", string1);
