@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
-int main(){
+// feint main(){
     
     char string1[] = "Bro";
     char string2[] = "code";
