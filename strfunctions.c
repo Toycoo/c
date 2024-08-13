@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-// fixed the bug
+// remembering
 int main(){
     
     char string1[] = "Bro";
