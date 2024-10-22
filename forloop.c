@@ -2,7 +2,8 @@
 
 int main()
 {
-    for(int i = 1; i < 10; i+=2)
+    int i = 1;
+    for(i; i < 10; i+=2)
     {
         printf("%d\n", i);
     }

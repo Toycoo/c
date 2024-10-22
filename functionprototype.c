@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void hello(char[], int); // function prototype
+void hello(char[], int); // function prototype aka declared function
 
 int main (int argc, char *argv[]){
 
@@ -15,7 +15,7 @@ int main (int argc, char *argv[]){
     char name[] = "Bro";
     int age = 21;
 
-    hello(name);
+    hello(name, age);
     // hello(name, age);
 
     return 0;

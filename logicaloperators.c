@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+
+
 int main(){
 
     // logical operators:  
     // && (AND) checks if both conditions are true
     // || (OR) checks if at least one condition is true
     // ! (NOT) reverses the state of a condition
+
 
 
     float temp = 25;
@@ -18,5 +21,6 @@ int main(){
     else{
         printf("\nThe weather is bad!");
     }
-
 }
+
+
