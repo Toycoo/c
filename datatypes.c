@@ -4,7 +4,7 @@
 int main()
 {
 
-    printf("\'Hello\\World\' -- This \t is\t Tab");
+    printf("\'Hello\\World\' -- This \t is \t Tab");
     printf("\n");
 
     // variable = Allocated space in memory to store a value
@@ -17,7 +17,7 @@ int main()
 
     int age = 21;              // integer %d
     float gpa = 2.05;          // floating point number %f
-    char grade = 'C';          // single character $c
+    char grade = 'C';          // single character %c
     char name[] = "Bro";       // array of characters %s
 
     printf("Hello %s\n", name);
@@ -31,6 +31,7 @@ int main()
     bool e = true;                 // 1 byte (true or false) %d
     
     char f = 100;                  // 1 byte (-128 to +127) %d or %c in ASCII TABLE
+    printf("The character is \'%c\'\n", f); // prints out the character "d"
     unsigned char g = 255;         // 1 byte (0 to +255) %d or %c
 
     short h = 32767;               // 2 bytes (-32,768 to +32,767) %d 
